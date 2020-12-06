@@ -1,0 +1,2 @@
+TenPhim=a, GiaTien=1, XuatChieu=null, NgayXem=2009-12-12
+TenPhim=a, GiaTien=2, XuatChieu=null, NgayXem=1990-12-12

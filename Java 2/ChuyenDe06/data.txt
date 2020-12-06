@@ -1,0 +1,2 @@
+Giay Nike,150,2010,Giay ben dep
+Giay adidas,250,1009,Giay dep chat luong tot
