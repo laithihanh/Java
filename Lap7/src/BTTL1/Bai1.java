@@ -83,17 +83,71 @@ public class Bai1 {
         Scanner s = new Scanner(System.in);
         // System.out.println("Mã sản phẩm: ");
         // this.mahh = s.nextInt();
-        System.out.println("Tên sản phẩm: ");
-        this.tenhh = s.nextLine();
-        System.out.println("Nhà sản xuất: ");
+        System.out.printf("\tTên sản phẩm:");
+        tenhh= s.nextLine();
+        while(true){
+            if(tenhh.length()> 0){
+                 break;
+            }else{
+                System.err.printf("\tTên sản phẩm không được để trống\n");
+                System.out.printf("\tNhập lại:");
+                tenhh = s.nextLine(); 
+            }
+        }
+        System.out.printf("\tNhà sản xuất: ");
         this.nhasx = s.nextLine();
+        while(true){
+            if(nhasx.length()> 0){
+                 break;
+            }else{
+                System.err.printf("\tNhà sản xuất không được để trống\n");
+                System.out.printf("\tNhập lại:");
+                nhasx = s.nextLine(); 
+            }
+        }
         // s.nextLine(); // clear
-        System.out.println("Số lượng: ");
-        this.soluong = s.nextInt();
-        System.out.println("Giá gốc: ");
-        this.giagoc = s.nextFloat();
-        System.out.println("VAT: ");
-        this.vat = s.nextInt();
+        while (true) {
+            try {
+                System.out.printf("\tSố lượng: ");
+                this.soluong = s.nextInt();
+                while(soluong <0){
+                    System.err.println("\tSố lượng phải lớn hơn 0");
+                    System.out.printf("\tNhập lại:");
+                }
+                break;
+            } catch (Exception ex) {
+                System.err.println("\tYêu cầu nhập số");
+                  s.nextLine();
+            }
+        }
+        while (true) {
+            try {
+                System.out.printf("\tGiá gốc: ");
+                this.giagoc = s.nextFloat();
+                while(soluong < 0){
+                    System.err.println("\tGiá gốc phải lớn hơn 0");
+                    System.out.printf("\tNhập lại:");
+                }
+                break;
+            } catch (Exception ex) {
+                System.out.println("Yêu cầu nhập số:");
+                  s.nextLine();
+            }
+        }
+        while (true) {
+            try {
+                System.out.printf("\tVAT: ");
+                this.vat = s.nextInt();
+                while(soluong < 0){
+                    System.err.println("\tVAT phải lớn hơn 0");
+                    System.out.printf("\tNhập lại:");
+                }
+                break;
+            } catch (Exception ex) {
+                System.out.println("Yêu cầu nhập số:");
+                  s.nextLine();
+            }
+        }
         System.out.println("Cảm ơn");
     }
     public void output() {

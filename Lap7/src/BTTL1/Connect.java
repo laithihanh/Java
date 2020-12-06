@@ -16,21 +16,21 @@ import java.util.logging.Logger;
  * @author USER
  */
 public class Connect {
+    private static final String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
+    private static final String BD_URL = "jdbc:sqlserver://localhost:1433;databaseName=qlsv";
+    private static final String USERNAME = "sa";
+    private static final String PASSWORD = "1234$";
     public static Connection getConnection(){
         Connection con = null;
-        try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            con =
-            DriverManager.getConnection("jdbc:sqlserver://localhost:1433;databaseName=qlsv","sa", "1234$");
-//                if (con != null) {
-//                System.out.println("Kết nối tới CSDL thành công!");
-//                } else {
-//                System.out.println("Không kết nối vào CSDL được");
-//                }
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Connect.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
-            Logger.getLogger(Connect.class.getName()).log(Level.SEVERE, null, ex);
+        if(con ==null){
+            try {
+                Class.forName(DRIVER);
+                con =DriverManager.getConnection(BD_URL,USERNAME,PASSWORD);
+            } catch (ClassNotFoundException ex) {
+                System.out.println(ex.getMessage());
+            }catch (SQLException ex) {
+                System.out.println(ex.getMessage());
+            }
         }
         return con;
     }

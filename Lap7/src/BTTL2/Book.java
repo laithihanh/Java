@@ -85,20 +85,69 @@ public class Book {
         // this.MaSach = s.nextInt();
         System.out.printf("\tTên sách: ");
         this.TenSach = s.nextLine();
-        System.out.printf("\tThể loại sách: ");
-        this.TheLoai = s.nextInt();
+        while(true){
+            if(TenSach.length()> 0){
+                 break;
+            }else{
+                System.err.printf("\tTên sách không được để trống\n");
+                System.out.printf("\tNhập lại:");
+                TenSach = s.nextLine(); 
+            }
+        }
+        
+        while (true) {
+            try {
+                System.out.printf("\tThể loại sách: ");
+                this.TheLoai = s.nextInt();
+                break;
+            } catch (Exception ex) {
+                System.err.println("\tYêu cầu nhập số");
+                  s.nextLine();
+            }
+        }
         // s.nextLine(); // clear
-        System.out.printf("\tNhà xuất bản: ");
-        this.NXB = s.nextInt();
-        System.out.printf("\tSố trang: ");
-        this.SoTrang = s.nextInt();
-        System.out.printf("\tGiá tiền: ");
-        this.GiaTien = s.nextFloat();
+        
+        while (true) {
+            try {
+                System.out.printf("\tNhà xuất bản: ");
+                this.NXB = s.nextInt();
+                break;
+            } catch (Exception ex) {
+                System.err.println("\tYêu cầu nhập số");
+                  s.nextLine();
+            }
+        }
+       
+        while (true) {
+            try {
+                System.out.printf("\tSố trang: ");
+                this.SoTrang = s.nextInt();
+                while(SoTrang < 0){
+                    System.err.println("\tSố trang phải lớn hơn 0");
+                    System.out.printf("\tNhập lại:");
+                }
+                break;
+            } catch (Exception ex) {
+                System.err.println("\tYêu cầu nhập số");
+                  s.nextLine();
+            }
+        }
+        
+        while (true) {
+            try {
+                System.out.printf("\tGiá tiền: ");
+                this.GiaTien = s.nextFloat();
+                while(GiaTien < 0){
+                    System.err.println("\tGiá tiền phải lớn hơn 0");
+                    System.out.printf("\tNhập lại:");
+                }
+                break;
+            } catch (Exception ex) {
+                System.err.println("\tYêu cầu nhập số");
+                  s.nextLine();
+            }
+        }
         
         System.out.printf("Cảm ơn");
-    }
-    public void output() {
-        System.out.printf("%d %15s %8d %10d %10d %12.2f \n",
-            this.MaSach, this.TenSach, this.TheLoai, this.NXB, this.SoTrang, this.GiaTien);
     }
 }

@@ -47,7 +47,9 @@ public class Main_Bai3 {
             Main_Bai3 b3 = new Main_Bai3();
             switch(chon){
                 case 1:
-                    b3.insert();
+                    SinhVien sv = new SinhVien();
+                    sv.input();
+                    b3.insert(sv);
                     break;
                 case 2:
                     b3.display();
@@ -70,26 +72,21 @@ public class Main_Bai3 {
             }
         }
     }
-    public void insert() {
+    public void insert(SinhVien sv) {
         try {
             String sql = "INSERT INTO tblSinhVien_Lap7(rollNo, sv_name, sv_address, sv_phone, sv_email) VALUES(?,?,?,?,?)";
-            PreparedStatement pst = conn.prepareStatement(sql);
+            PreparedStatement ps = conn.prepareStatement(sql);
 
-            Scanner sc = new Scanner(System.in);
-
-            System.out.printf("\tMã sinh viên:");
-            pst.setString(1, sc.nextLine());
-            System.out.printf("\tTên sinh viên:");
-            pst.setNString(2, sc.nextLine());
-            System.out.printf("\tĐịa chỉ: ");
-            pst.setNString(3, sc.nextLine());
-            System.out.printf("\tSố điện thoại: ");
-            pst.setString(4, sc.nextLine());
-            System.out.printf("\tEmail: ");
-            pst.setString(5, sc.nextLine());
-            int result = pst.executeUpdate();
+            ps.setString(1, sv.getRollNo());
+            ps.setNString(2, sv.getSv_name());
+            ps.setNString(3, sv.getSv_address());
+            ps.setString(4, sv.getSv_phone());
+            ps.setString(5, sv.getSv_email());
+            int result = ps.executeUpdate();
             if (result > 0) {
                 System.out.println("Thêm mới dữ liệu thành công");
+            }else {
+                System.err.println("Lỗi, thêm thất bại");
             }
         } catch (SQLException ex) {
             System.err.println("Lỗi: " + ex.getMessage());
@@ -127,7 +124,7 @@ public class Main_Bai3 {
         System.out.printf("Email cần tìm: ");
         String sv_email = sc.nextLine();
 
-        pst.setNString(1, "'%"+ sv_email+ "%'");
+        pst.setNString(1, "%"+ sv_email+ "%");
         System.out.printf("%s %10s %15s %15s %15s %15s \n",
         "id", "rollNo", "sv_name", "sv_address", "sv_phone", "sv_email");
         ResultSet rs = pst.executeQuery();
@@ -155,7 +152,7 @@ public class Main_Bai3 {
         System.out.printf("Tên cần tìm: ");
         String sv_name = sc.nextLine();
 
-        pst.setNString(1, "'%"+ sv_name+ "%'");
+        pst.setNString(1, "%"+ sv_name+ "%");
         System.out.printf("%s %10s %15s %15s %15s %15s \n",
         "id", "rollNo", "sv_name", "sv_address", "sv_phone", "sv_email");
         ResultSet rs = pst.executeQuery();

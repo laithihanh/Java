@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  * @author ADMIN
  */
 public class Connect {
-    private static final String HOST = "jdbc:sqlserver://localhost\\MINHVUFC-PC\\SQLEXPRESS2014:1433;databaseName=qlsv";
+    private static final String HOST = "jdbc:sqlserver://localhost:1433;databaseName=qlsv";
     private static final String USERNAME = "sa";
     private static final String PASSWORD = "1234$";
     public static Connection getConnection() throws SQLException {
@@ -29,5 +29,5 @@ public class Connect {
             Logger.getLogger(Connect.class.getName()).log(Level.SEVERE, null,ex);
         }
         return null;
-    }
+    }                                                                                       
 }

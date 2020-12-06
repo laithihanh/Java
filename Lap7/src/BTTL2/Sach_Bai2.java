@@ -137,13 +137,14 @@ public class Sach_Bai2 {
              System.out.printf("%2s %10s %10s %10s %10s %10s \n",
             "MaSach", "TenSach", "TheLoai", "NXB", "SoTrang", "GiaTien");
             while (rs.next()) {
-                Book p = new Book(rs.getInt("MaSach"),
+                System.out.printf("%2s %14s %10s %10s %10s %10s \n",
+                    rs.getInt("MaSach"),
                         rs.getString("TenSach"),
                         rs.getInt("TheLoai"),
                         rs.getInt("NXB"),
                         rs.getInt("SoTrang"),
-                        rs.getFloat("GiaTien"));
-                p.output();
+                        rs.getFloat("GiaTien")
+                    );
             }
             System.out.println("--------------------------------------------------------------------");
         } catch (SQLException ex) {
