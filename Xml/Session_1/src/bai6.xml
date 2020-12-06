@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D:DataSheet xmlns:D="http://www.aptechworldwide.com">
+    <D:Record>
+        <D:Ten>Nguyễn Văn Công</D:Ten>
+        <D:diadiem>Hạ Long</D:diadiem>
+        <D:TravelDetails>
+            <D:Chedodulich>Tàu</D:Chedodulich>
+            <D:Tenchedo>Tàu trung tâm</D:Tenchedo>
+            <D:Loaihinhdulich>Hai chiều</D:Loaihinhdulich>
+        </D:TravelDetails>
+        <D:Songuoidi>2</D:Songuoidi>
+        <D:Ngaykhoihanh>03-04-07</D:Ngaykhoihanh>
+        <D:AmountDetails>
+            <D:Phuongthucthanhtoan>Thẻ ngân hàng</D:Phuongthucthanhtoan>
+            <D:Loaithe>Vietcombanhk</D:Loaithe>
+            <D:Sotien>10000000</D:Sotien>
+        </D:AmountDetails>
+        <D:Phone>033442446</D:Phone>
+        <D:Hotel>
+            <D:Diachi>Bãi Cháy, Hạ long, Quảng Ninh</D:Diachi>
+            <D:CheckIn>03-04-07</D:CheckIn>
+            <D:AmountDetails>
+                <D:Phuongthucthanhtoan>Thẻ ngân hàng</D:Phuongthucthanhtoan>
+                <D:Loaithe>Vietcombanhk</D:Loaithe>
+                <D:Sotien>5000000</D:Sotien>
+            </D:AmountDetails>
+            <D:CheckOut>10-04-07</D:CheckOut>
+        </D:Hotel>
+    </D:Record>
+</D:DataSheet>

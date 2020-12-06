@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BTTL2.xsl" ?>
+<content>
+    <cd>
+        <name>Acton Town</name>
+        <code>W3 8HN</code>
+        <line>Distric Piccadilly</line>
+    </cd>
+    <cd>
+        <name>Barker Street</name>
+        <code>LW1 5NA</code>
+        <line>Barkerlo,Circle</line>
+    </cd>
+    <cd>
+        <name>Bond Street</name>
+        <code>W3 8HN</code>
+        <line>Distric Piccadilly</line>
+    </cd>
+    <cd>
+        <name>Changing Town</name>
+        <code>W3 8HN</code>
+        <line>Distric Piccadilly</line>
+    </cd>
+    
+</content>

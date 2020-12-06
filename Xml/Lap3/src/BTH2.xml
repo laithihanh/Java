@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<DSHoKhau
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTH2.xsd'>
+    <HoKhau>
+        <DiaChi>
+            <sonha>238</sonha>
+            <duong>Hoàng Quốc Việt</duong>
+            <phuong>Thanh Xuân Nam</phuong>
+            <quan>Cầu Giấy</quan>
+            <thanhpho>Hà Nội</thanhpho>
+        </DiaChi>
+        <ChuHo>
+            <soCMND>123456789</soCMND>
+            <ho>Vu</ho>
+            <ten>Minh</ten>
+            <nguyenquan>Hoàng Mai</nguyenquan>
+            <gioiTinh>Nam</gioiTinh>
+            <ngaySinh>1984-10-23</ngaySinh>
+        </ChuHo>
+        <ThanhVien>
+            <soCMND>123456789</soCMND>
+            <ho>Vu</ho>
+            <ten>Tung Lam</ten>
+            <nguyenquan>Phạm Linh Anh</nguyenquan>
+            <gioiTinh>Nữ</gioiTinh>
+            <ngaySinh>1989-11-15</ngaySinh>
+            <moiQuanHe>Vợ</moiQuanHe>
+        </ThanhVien>
+        <ThanhVien>
+            <soCMND>123456789</soCMND>
+            <ho>Vu</ho>
+            <ten>Thuy Lam</ten>
+            <nguyenquan>Hoàng Văn Thụ</nguyenquan>
+            <gioiTinh>Nữ</gioiTinh>
+            <ngaySinh>2015-02-15</ngaySinh>
+            <moiQuanHe>Con</moiQuanHe>
+        </ThanhVien>
+    </HoKhau>
+</DSHoKhau>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="BTH4.css" type="text/css"?>
+<School abc="adsfds">
+    <Name>BachKhoa-Aptech Computer Educatino</Name>
+    <Address>250 - Hoàng Quốc Việt - Hà Nội</Address>
+        <Sem>
+        <NameSem>Semesters 1</NameSem>
+            <Student>
+                <NameStudent>Nguyễn Thị Ánh</NameStudent>
+                <Subject>
+                    <NameSubject>PHP</NameSubject>
+                    <Mark>15</Mark>
+                </Subject>
+                <Subject>
+                    <NameSubject>CF</NameSubject>
+                    <Mark>23</Mark>
+                </Subject>
+            </Student>
+        <NameSem>Semesters 2</NameSem>
+            <Student>
+                <NameStudent>Nguyễn Thị Ánh</NameStudent>
+                <Subject>
+                    <NameSubject>Java</NameSubject>
+                    <Mark>15</Mark>
+                </Subject>
+                <Subject>
+                    <NameSubject>XML</NameSubject>
+                    <Mark>23</Mark>
+                </Subject>
+            </Student>
+        </Sem>
+</School>

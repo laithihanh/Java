@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="bai4.css"?>
+<!--Bai 4-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>Bài4</head>
+    <body>
+        <table>
+            <tr>
+                <th>Product id</th>
+                <th>Product name</th>
+                <th>Product quanlity</th>
+                <th>Product quantity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Giầy</td>
+                <td>Tốt</td>
+                <td>Chiếc</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dép</td>
+                <td>Hàng cũ</td>
+                <td>Cái</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Guốc</td>
+                <td>Hư hỏng</td>
+                <td>Kg</td>
+            </tr>
+        </table>
+    </body>
+</html>
+<!--<products>
+    <product id="abc">
+        <id>Product id</id>
+        <name>Product name</name>
+        <quality>Product quanlity</quality>
+        <quantity>Product quantity</quantity>
+    </product>
+    <product>
+        <id>1</id>
+        <name>Giầy</name>
+        <quality>Tốt</quality>
+        <quantity>Chiếc</quantity>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Dép</name>
+        <quality>Hàng cũ</quality>
+        <quantity>Cái</quantity>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Guốc</name>
+        <quality>Hư hỏng</quality>
+        <quantity>Kg</quantity>
+    </product>
+</products>-->

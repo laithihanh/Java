@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Orders SYSTEM "tulam1.dtd">
+<Orders>
+    <Order>
+        <OrderNo order="1"></OrderNo>
+        <OrderDate>17/09/2020</OrderDate>
+        <CustomerName>Jone</CustomerName>
+        <Detail>
+            <ItemNo>1</ItemNo>
+            <ItemName>Jone</ItemName>
+            <Quantity>4</Quantity>
+            <Price gia="0"></Price>
+        </Detail>
+    </Order>
+    <Order>
+        <OrderNo order="2"></OrderNo>
+        <OrderDate>17/09/2020</OrderDate>
+        <CustomerName>Jone</CustomerName>
+        <Detail>
+            <ItemNo>1</ItemNo>
+            <ItemName>Jone</ItemName>
+            <Quantity>4</Quantity>
+            <Price gia="0"></Price>
+        </Detail>
+    </Order>
+</Orders>

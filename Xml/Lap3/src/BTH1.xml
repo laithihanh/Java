@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tblhoadon
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTH1.xsd'>
+    <id>1</id>
+    <ten>Jonh</ten>
+    <soluong>20</soluong>
+    <giatri>90</giatri>
+    <ngaylap>2020-08-19</ngaylap>
+
+</tblhoadon>

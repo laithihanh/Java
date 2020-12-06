@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Bai2.xsl" ?>
+<Computers>
+    <Computer id="C01">
+        <Name>Acer corei3 2.0GHz</Name>
+        <Producer from="Malaysia">Acer</Producer>
+        <YearMaking month="12">2017</YearMaking>
+        <Price unit="USD">500</Price>
+    </Computer>
+    <Computer id="C02">
+        <Name>HP corei5 2.5GHz</Name>
+        <Producer from="China">HP</Producer>
+        <YearMaking month="06">2016</YearMaking>
+        <Price unit="USD">700</Price>
+    </Computer>
+    <Computer id="C03">
+        <Name>Sony Corei7 3.0GHz</Name>
+        <Producer from="Việt Nam">Sony</Producer>
+        <YearMaking month="11">2017</YearMaking>
+        <Price unit="USD">1000</Price>
+    </Computer>
+    <Computer id="C04">
+        <Name>Acer core i7</Name>
+        <Producer from="China">Acer</Producer>
+        <YearMaking month="06">2018</YearMaking>
+        <Price unit="USD">800</Price>
+    </Computer>
+     <Computer id="C05">
+        <Name>Sony Corei5 2.4GHz</Name>
+        <Producer from="Malaysia">Sony</Producer>
+        <YearMaking month="16">2018</YearMaking>
+        <Price unit="USD">600</Price>
+    </Computer>
+</Computers>

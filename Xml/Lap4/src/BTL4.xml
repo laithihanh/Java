@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="BTL4.css"?>
+<content>
+        <title><t1>Improving an XML feed display through CSS and XSTL</t1></title>
+        <nd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque, accusamus necessitatibus officiis. Impedit, dolore dolorem velit. Quod repudiandae quasi sunt commodi repellendus recusandae, repellat debitis similique rem, eveniet autem.</nd>
+        <time>Sun, 06 Mar 2005 00:00:00 MST</time>
+        <http>http:://www.xefteri.com/gfgyg</http>
+    <content2>
+        <title><t1>Improving an XML feed display through CSS and XSTL</t1></title>
+        <nd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque, accusamus necessitatibus officiis. Impedit, dolore dolorem velit. Quod repudiandae quasi sunt commodi repellendus recusandae, repellat debitis similique rem, eveniet autem.</nd>
+        <time>Sun, 06 Mar 2005 00:00:00 MST</time>
+        <http>http:://www.xefteri.com/gfgyg</http>
+    </content2>
+    <content2>
+        <title><t1>Improving an XML feed display through CSS and XSTL</t1></title>
+        <nd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque, accusamus necessitatibus officiis. Impedit, dolore dolorem velit. Quod repudiandae quasi sunt commodi repellendus recusandae, repellat debitis similique rem, eveniet autem.</nd>
+        <time>Sun, 06 Mar 2005 00:00:00 MST</time>
+        <http>http:://www.xefteri.com/gfgyg</http>
+    </content2>
+</content>

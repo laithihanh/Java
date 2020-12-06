@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="BTL2.css"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>Bài4</head>
+    <body>
+        <h3>UNIT-1</h3>
+        <table>
+            <tr id="tr1">
+                <th>Lecture Number</th>
+                <th>Topic Description</th>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-1</td>
+                <td>Introduction HTML</td>
+            </tr>
+            <tr id="tr3">
+                <td>Lecture-2</td>
+                <td>HTML images,link</td>
+            </tr>
+            <tr id="tr2"> 
+                <td>Lecture-3</td>
+                <td>HTML table</td>
+            </tr>
+            <tr id="tr3">
+                <td>Lecture-4</td>
+                <td>HTML From</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-5</td>
+                <td>HTML From</td>
+            </tr>
+            <tr id="tr3">
+                <td>Lecture-6</td>
+                <td>CSS</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-7</td>
+                <td>XML, XML Documents</td>
+            </tr>
+            <tr id="tr3">
+                <td>Lecture-8</td>
+                <td>DTD</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-9</td>
+                <td>XML Schema</td>
+            </tr>
+        </table>
+    </body>
+</html>

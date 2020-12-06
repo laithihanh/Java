@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:categories xmlns:c="http:/category.com/category" xmlns:p="http://product.com/product">
+	<c:category>
+		<c:id>1</c:id>
+		<c:name>Laptop</c:name>
+		<p:product>
+			<p:id>12</p:id>
+			<p:name>Laptop Acer</p:name>
+		</p:product>
+		<p:product>
+			<p:id>13</p:id>
+			<p:name>Laptop Dell</p:name>
+		</p:product>
+	</c:category>
+	<c:category>
+		<c:id>2</c:id>
+		<c:name>Tivi</c:name>
+		<p:product>
+			<p:id>22</p:id>
+			<p:name>Tivi Samsung</p:name>
+		</p:product>
+		<p:product>
+			<p:id>23</p:id>
+			<p:name>Tivi LG</p:name>
+		</p:product>
+	</c:category>
+	
+</c:categories>

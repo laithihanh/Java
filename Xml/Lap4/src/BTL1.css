@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2020, 8:32:15 PM
+    Author     : USER
+*/
+Frank{
+    border: solid #000000 3px;
+    width: 30%;
+    margin: 0 auto;
+}
+Name,quan,thanhpho,Mobilephone,Telephone,Email{
+    display: block;
+    margin-left: 10px;
+}
+Name{
+    font-size: 30px;
+    font-weight: bold;
+}
+quan,thanhpho,Phone,Email{
+   font-size: 20px; 
+}
+thanhpho{
+    border-bottom: solid 2px  #e6e6e6;
+    width: 395px;
+    margin-bottom: 5px;
+}
+Telephone{
+    border-bottom: solid 2px  #e6e6e6;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE houses SYSTEM "Tulam2.dtd">
+<houses>
+    <house>
+        <room name="njhj">
+            <dimenssions>
+                <with>110</with>
+                <length>220</length>
+            </dimenssions>
+            <windows>
+                <window>
+                    <elevation facing="west"></elevation>
+                    <with>110</with>
+                    <height>220</height>
+                </window>
+            </windows>
+            <furniture>avr</furniture>
+        </room>
+    </house>
+</houses>

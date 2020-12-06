@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product xmlns:p="http://product.com" xmlns="http://category.com">
+	<code>MTT-03</code>
+	<name>SamsungA50</name>
+	<category>Samsung</category>
+	<desciption>
+		<p:desc-first>Black</p:desc-first>
+		<p:desx-second>5 inch</p:desx-second>
+	</desciption>
+	<image xmlsn="http://product.com/image">
+		<avatar>samsung.png</avatar>
+		<description>description.jpg</description>
+	</image>
+</product>

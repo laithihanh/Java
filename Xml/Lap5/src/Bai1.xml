@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Bai1.xsl" ?>
+<Employees>
+    <Employee id="E01">
+        <Name>
+            <FirstName>Hùng </FirstName>
+            <LastName>Nguyễn Văn</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="11" month="02" year="1995">11-02-1995</Birthday>
+        <Company country="Viet Nam">Usol - VietNam</Company>
+    </Employee>
+    <Employee id="E02">
+        <Name>
+            <FirstName>Huyền </FirstName>
+            <LastName>Nguyễn Thị</LastName>
+        </Name>
+        <Gender>Female</Gender>
+        <Birthday day="01" month="08" year="1996">01-08-1996</Birthday>
+        <Company country="Viet Nam">F-soft</Company>
+    </Employee>
+    <Employee id="E03">
+        <Name>
+            <FirstName>Thành </FirstName>
+            <LastName>Nguyễn Trần</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="17" month="09" year="1994">17-09-1994</Birthday>
+        <Company country="Japan">Usol - Japan</Company>
+    </Employee>
+    <Employee id="E04">
+        <Name>
+            <FirstName>Tiến </FirstName>
+            <LastName>Nguyễn Đức</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="07" month="05" year="1990">07-05-1990</Birthday>
+        <Company country="Viet Nam">F-Soft</Company>
+    </Employee>
+    <Employee id="E05">
+        <Name>
+            <FirstName>Mai </FirstName>
+            <LastName>Nguyễn Thanh</LastName>
+        </Name>
+        <Gender>Female</Gender>
+        <Birthday day="20" month="09" year="1997">20-09-1997</Birthday>
+        <Company country="France">Exo</Company>
+    </Employee>
+</Employees>

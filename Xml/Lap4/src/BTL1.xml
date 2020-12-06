@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="BTL1.css" type="text/css"?>
+<Frank>
+    <Name>Frank Rizzo</Name>
+    <Address>
+        <quan>Cầu Giấy</quan>
+        <thanhpho>Hà Nội</thanhpho>
+    </Address>
+    <Phone>
+        <Mobilephone>0123457895</Mobilephone>
+        <Telephone>02376895532</Telephone>
+    </Phone>
+    <Email>abc123@gmail.com</Email>
+</Frank>

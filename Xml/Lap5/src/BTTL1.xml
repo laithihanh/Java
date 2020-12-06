@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BTTL1.xsl" ?>
+<football>
+    <ball>
+         <name>Thống Nhất</name>
+         <time>2008-09-12</time>
+         <team>SLNA</team>
+         <bt>5</bt>
+         <team1>CSG</team1>
+         <bt1>5</bt1>
+    </ball>
+    <ball>
+         <name>Bình Định</name>
+         <time>2008-09-13</time>
+         <team>HAGL</team>
+         <bt>2</bt>
+         <team1>BD</team1>
+         <bt1>3</bt1>
+    </ball>
+    <ball>
+         <name>Vinh</name>
+         <time>2008-09-15</time>
+         <team>GDT</team>
+         <bt>4</bt>
+         <team1>NCB</team1>
+         <bt1>1</bt1>
+    </ball>
+    <ball>
+         <name>Nam Định</name>
+         <time>2008-09-16</time>
+         <team>SLNA</team>
+         <bt>3</bt>
+         <team1>NHACB</team1>
+         <bt1>3</bt1>
+    </ball>
+</football>

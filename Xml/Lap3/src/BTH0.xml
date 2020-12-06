@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTH0.xsd'>
+    <book ISBN="">
+        <title>XML Đơn giản</title>
+        <author>Lại Thị Hạnh</author>
+        <category>Lập trình</category>
+        <year>2020</year>
+        <edition>Đoàn Nguyên Đức</edition>
+        <price>$99</price>
+    </book>
+</bookstore>

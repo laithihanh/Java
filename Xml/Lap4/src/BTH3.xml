@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="BTH3.css"?>
+<Classes>
+    <Class>
+        <Name>C0810G</Name>
+        <Student>
+            <FullName>Hoàng Hà</FullName>
+            <BirthDay>1986-12-1</BirthDay>
+            <Address>Hà Nội</Address>
+            <Email>hah@gmail.com</Email>
+        </Student>
+        <Student>
+            <FullName>Nguyễn Cửu Long</FullName>
+            <BirthDay>1982-09-04</BirthDay>
+            <Address>Hà Nội</Address>
+            <Email>longnc@yahoo.com</Email>
+        </Student>
+    </Class>
+    <Class>
+        <Name>C0902L</Name>
+            <Student>
+                <FullName>Lê Hải Nam</FullName>
+                <BirthDay>1984-02-12</BirthDay>
+                <Address>Nam Định</Address>
+                <Email>namlh@yahoo.com</Email>
+            </Student>
+    </Class>
+</Classes>

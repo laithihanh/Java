@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories xmlns:c="http:/category.com/category" xmlns:p="http://product.com/product">
+	<c:category>
+		<c:id>1</c:id>
+		<c:name>Điện thoại</c:name>
+		<p:product p:color="black">
+			<p:id>1</p:id>
+			<p:name>Samsung A51</p:name>
+		</p:product>
+		<p:product p:color="red">
+			<p:id>2</p:id>
+			<p:name>Iphone 6</p:name>
+		</p:product>
+	</c:category>
+	<c:category>
+		<c:id>2</c:id>
+		<c:name>Tivi</c:name>
+		<p:product p:color="black">
+			<p:id>20</p:id>
+			<p:name>Tivi Samsung</p:name>
+		</p:product>
+		<p:product p:color="gray">
+			<p:id>21</p:id>
+			<p:name>Tivi LG</p:name>
+		</p:product>
+	</c:category>
+	
+</categories>

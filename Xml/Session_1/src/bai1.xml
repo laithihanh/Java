@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Bài 1-->
+<students>
+    <name>Lại Thị Hạnh</name>
+    <dob>17/09/2001</dob>
+    <gender>Nữ</gender>
+    <rollnumber>C1908I1</rollnumber>
+</students>

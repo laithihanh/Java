@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Account>
+    <Number>0123456879</Number>
+    <Type>Vietcombank</Type>
+    <OpenDate>11/04/2019</OpenDate>
+    <Balance>10.000000</Balance>
+    <AccountName>
+        <LastName>Lại Thị</LastName>
+        <FirstName>Hạnh</FirstName>
+    </AccountName>
+</Account>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SaleDetails SYSTEM "BTH2.dtd">
+<SaleDetails>
+    <Sale>
+        <BillNumber>1</BillNumber>
+        <Date>17/8/2020</Date>
+        <Branch>CND</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&VH; Jeans</Name>
+            <Code>2323</Code>
+            <Quantity>1</Quantity>
+            <Price>200</Price>
+            <Discount>10</Discount>
+            <Total>180</Total>
+        </Item>
+        <Payment Mode="Card">
+            <CardName Type="Credit">&AS;</CardName>
+            <CustomerName>Allan</CustomerName>
+            <CardNumber>99044993</CardNumber>
+            <AccountNumber>77688906</AccountNumber>
+            <GrandTotal>180</GrandTotal>
+        </Payment>
+    </Sale>
+</SaleDetails>

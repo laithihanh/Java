@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="BTH1.css"?>
+<library>
+<book>
+<title>Lập trình Java</title>
+<price>105460</price>
+</book>
+<book id="head">
+<title>PHP Toàn tập</title>
+<price>3268</price>
+</book>
+<book>
+<title>Begining Android</title>
+<price>6996</price>
+</book>
+</library>
